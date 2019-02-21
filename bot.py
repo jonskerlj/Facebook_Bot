@@ -16,6 +16,6 @@ class Jarvis(Client):
 
         self.markAsDelivered(author_id, thread_id)
 
-client = Jarvis("jon.skerlj98@gmail.com", "nm9500yu")
+client = Jarvis("email", "password")
 
 client.listen()
